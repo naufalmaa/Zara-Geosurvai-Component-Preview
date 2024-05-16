@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #112D4E;
+}
+
+.jumbotron{
+    margin: 80px 80px 10px 80px;
+}
+
+.stepper{
+    margin: 30px 1000px 0px 80px;
+}
+
+.stepper .mantine-Stepper-stepIcon{
+    border: 2px solid black;
+}
+
+.app-name{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.desc-zara-1{
+    margin: 0px 0px 5px 0px;
+    font-size: 17px;
+}
+
+.home-layout{
+    margin: 10px 80px 10px 80px;
+}
+
+.simple-grid{
+    height: 1000px;
+}
+
+.chat-container {
+    margin: 50px 50px 20px 0px;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.div-2 {
+    margin: 50px 0px 20px 0px;
+    height: 660px;
+    border: 1px solid #E9ECEF;
+    overflow-y: scroll;
+}
+
+.div-3{
+    height: 300px;
+    border: 1px solid black;
+}
+
+#chat-output{
+    height: 500px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    border: 1px solid #E9ECEF;
+
+}
+
+.chat-item {
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px 10px 10px ;
+    /* display: flex;
+    justify-content: space-between; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.question {
+    color: black;
+    margin-right: 20px; /* Add 5px margin to the right of the question */
+}
+
+.answer {
+    color: grey;
+    margin-left: 20px; /* Add 5px margin to the left of the answer */
+    overflow-x: scroll;
+}
+
+/* CSS file to style Markdown tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
