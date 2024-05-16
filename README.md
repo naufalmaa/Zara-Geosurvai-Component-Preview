@@ -1,5 +1,6 @@
-### Zara Component Preview
+## Zara Component Preview
 
+### How to prompt
 1. Check "enable query" untuk query dataframe
 2. Check "enable plotting" untuk membuat plot berdasarkan dataframe
 3. Uncheck everything untuk pertanyaan general atau seputar dataframe secara umum
