@@ -1,2 +1,5 @@
 openai_api_key.py
+geosurvai_prt_venv
+config.ini
 __pycache__
+*.db
