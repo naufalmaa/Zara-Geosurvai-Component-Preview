@@ -10,9 +10,9 @@
 6. Create file openai_api_key.py
 7. Put your openai api key, simply use
    ```
-9. KEY = "write-your-api-key-here"
+   KEY = "write-your-api-key-here"
    ```
-11. Run the "app.py" file
+8. Run the "app.py" file
 
 ### How to prompt
 1. Check "enable query" untuk query dataframe
