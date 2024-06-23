@@ -1,11 +1,18 @@
 ## Zara Component Preview
 ### How to install
-1. Create new environment variable (venv or others), using  python 3.10.11 is preferred
-2. Activate the new environment variable
-3. Install the required packages on "requirements.txt" using '''pip install -r requirements.txt'''
-4. Create file openai_api_key.py
-5. Put your openai api key, simply use '''KEY = "write-your-api-key-here"'''
-6. Run the "app.py" file
+1. Clone this repository
+2. Create new environment variable (venv or others), using  python 3.10.11 is preferred
+3. Activate the new environment variable
+4. Install the required packages on "requirements.txt" using
+   ```
+   pip install -r requirements.txt
+   ```
+6. Create file openai_api_key.py
+7. Put your openai api key, simply use
+   ```
+   KEY = "write-your-api-key-here"
+   ```
+8. Run the "app.py" file
 
 ### How to prompt
 1. Check "enable query" untuk query dataframe
