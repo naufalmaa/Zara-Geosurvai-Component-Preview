@@ -575,7 +575,8 @@ def chat_window(n_clicks, data, question, cur, plotting_enabled, query_enabled):
             """})
 
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo-16k",
+            # model="gpt-3.5-turbo-16k",
+            model="gpt-4",
             messages=messages,
             temperature=0.0,
             max_tokens=4000,
