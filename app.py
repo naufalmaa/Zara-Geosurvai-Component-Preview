@@ -575,7 +575,7 @@ def chat_window(n_clicks, data, question, cur, plotting_enabled, query_enabled):
             """})
 
         completion = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-3.5-turbo-16k",
             messages=messages,
             temperature=0.0,
             max_tokens=4000,
@@ -591,8 +591,12 @@ def chat_window(n_clicks, data, question, cur, plotting_enabled, query_enabled):
             ]
             return (question + cur if cur else question), None
         else:
+            import_statement = "import pandas as pd\nimport plotly.express as px\n"
+            code_with_import = import_statement + code
+            
+            # Execute the generated code safely
             exec_globals = {"df": df, "px": px}
-            exec_locals = safe_exec(code, globals=exec_globals)
+            exec_locals = safe_exec(code_with_import, globals=exec_globals)
             
             # Initialize the outputs to default values
             graph_output = None
